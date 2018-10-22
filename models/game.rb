@@ -10,6 +10,8 @@ class Game
     @player_2 = player_2
   end
 
-
+  def declare_winner
+    
+  end
 
 end
