@@ -23,6 +23,7 @@ class Game
       "paper"
     elsif @player_1 == "paper" && @player_2 == "scissors"
       "scissors"
+    # add draw results
     # else
     #   return "Invalid player moves have been selected. Each player must play either 'rock', 'paper' or 'scissors'."
     end
