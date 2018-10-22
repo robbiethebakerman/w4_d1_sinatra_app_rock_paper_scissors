@@ -23,6 +23,12 @@ class Game
       "paper"
     elsif @player_1 == "paper" && @player_2 == "scissors"
       "scissors"
+    elsif @player_1 == "rock" && @player_2 == "rock"
+      "draw"
+    elsif @player_1 == "scissors" && @player_2 == "scissors"
+      "draw"
+    elsif @player_1 == "paper" && @player_2 == "paper"
+      "draw"
     # add draw results
     # else
     #   return "Invalid player moves have been selected. Each player must play either 'rock', 'paper' or 'scissors'."

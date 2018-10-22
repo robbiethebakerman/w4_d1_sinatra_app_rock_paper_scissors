@@ -14,7 +14,7 @@ DONE - Add an ERB view file for returning the result of the game, rather than ju
 
 DONE - Add a welcome page (and a route to get it) to explain the rules before the user picks their move. Add a link to this on the result view.
 
-- Add some CSS to either/both of your pages.
+DONE - Add some CSS to either/both of your pages.
 
 ### Further extension:
 

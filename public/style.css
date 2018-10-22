@@ -1,0 +1,12 @@
+body {
+  background-color: #A5E5DC;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  overflow: auto;
+  /* background-color: linear-gradient(to bottom, #42CED3 0%, #1B699D 100%); */
+  color: #082EC4;
+  font-family: Trebuchet, sans-serif;
+}
