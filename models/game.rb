@@ -12,26 +12,25 @@ class Game
 
   def declare_winner()
     if @player_1 == "rock" && @player_2 == "scissors"
-      "rock"
+      "Congratulations!!! Player 1 wins with rock!"
     elsif @player_1 == "rock" && @player_2 == "paper"
-      "paper"
+      "Congratulations!!! Player 2 wins with paper!"
     elsif @player_1 == "scissors" && @player_2 == "rock"
-      "rock"
+      "Congratulations!!! Player 2 wins with rock!"
     elsif @player_1 == "scissors" && @player_2 == "paper"
-      "scissors"
+      "Congratulations!!! Player 1 wins with scissors!"
     elsif @player_1 == "paper" && @player_2 == "rock"
-      "paper"
+      "Congratulations!!! Player 1 wins with paper!"
     elsif @player_1 == "paper" && @player_2 == "scissors"
-      "scissors"
+      "Congratulations!!! Player 2 wins with scissors!"
     elsif @player_1 == "rock" && @player_2 == "rock"
-      "draw"
+      "Well that's an anti-climax: it was a bore-draw!"
     elsif @player_1 == "scissors" && @player_2 == "scissors"
-      "draw"
+      "Well that's an anti-climax: it was a bore-draw!"
     elsif @player_1 == "paper" && @player_2 == "paper"
-      "draw"
-    # add draw results
-    # else
-    #   return "Invalid player moves have been selected. Each player must play either 'rock', 'paper' or 'scissors'."
+      "Well that's an anti-climax: it was a bore-draw!"
+    else
+      "Looks like you made a boo-boo!!! Invalid player moves have been selected. Each player must play either 'rock', 'paper' or 'scissors'."
     end
   end
 

@@ -18,4 +18,6 @@ DONE - Add some CSS to either/both of your pages.
 
 ### Further extension:
 
+DONE
+
 Think about how you might differentiate between the two people playing the game - currently we don't know WHO has won, just which hand. If we think of '/rock/scissors' as being Player 1 plays Rock, and Player 2 plays Scissors, how might we be able to give the feedback of 'Player 1 wins by playing Rock!' rather than just 'Rock wins!'?
