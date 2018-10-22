@@ -22,27 +22,27 @@ class GameTest < MiniTest::Test
   end
 
   def test_declare_winner__rock_scissors
-    assert_equal("rock", @game_1.declare_winner)
+    assert_equal("rock", @game_1.declare_winner())
   end
 
   def test_declare_winner__rock_paper
-    assert_equal("paper", @game_2.declare_winner)
+    assert_equal("paper", @game_2.declare_winner())
   end
 
   def test_declare_winner__scissors_rock
-    assert_equal("rock", @game_3.declare_winner)
+    assert_equal("rock", @game_3.declare_winner())
   end
 
   def test_declare_winner__scissors_paper
-    assert_equal("scissors", @game_4.declare_winner)
+    assert_equal("scissors", @game_4.declare_winner())
   end
 
   def test_declare_winner__paper_rock
-    assert_equal("paper", @game_5.declare_winner)
+    assert_equal("paper", @game_5.declare_winner())
   end
 
   def test_declare_winner__paper_scissors
-    assert_equal("scissors", @game_6.declare_winner)
+    assert_equal("scissors", @game_6.declare_winner())
   end
 
 end
